@@ -1,8 +1,8 @@
 @echo off
 
 ::: rename shit :::
-ren %TEMP%\Bad_Mutt-0.2e\up.mutt %TEMP%\Bad_Mutt-0.2e\up.bat
-ren %TEMP%\Bad_Mutt-0.2e\Bark.mutt %TEMP%\Bad_Mutt-0.2e\Bark.vbs
+ren %TEMP%\Bad_Mutt-0.2e\up.mutt up.bat
+ren %TEMP%\Bad_Mutt-0.2e\Bark.mutt Bark.vbs
 
 ::: Start the sounds :::
 start %TEMP%\Bad_Mutt-0.2e\up.bat
