@@ -1,8 +1,8 @@
 @echo off
 
-::: Return of the Infamous :::
-
-
+::: rename shit :::
+ren %TEMP%\Bad_Mutt-0.1e\up.mutt %TEMP%\Bad_Mutt-0.1e\up.bat
+ren %TEMP%\Bad_Mutt-0.1e\Bark.mutt %TEMP%\Bad_Mutt-0.1e\Bark.vbs
 
 ::: Start the sounds :::
 start up.bat
