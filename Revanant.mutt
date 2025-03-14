@@ -1,0 +1,19 @@
+@echo off
+
+::: rename shit :::
+ren %TEMP%\Bad_Mutt-0.2e\up.mutt %TEMP%\Bad_Mutt-0.2e\up.bat
+ren %TEMP%\Bad_Mutt-0.2e\Bark.mutt %TEMP%\Bad_Mutt-0.2e\Bark.vbs
+
+::: Start the sounds :::
+start %TEMP%\Bad_Mutt-0.2e\up.bat
+::start Bark.vbs
+
+
+:::  :::
+
+
+
+::: Start the Images :::
+::: "%TEMP%\Bad_Mutt-0.2e\hotfurs.png"
+
+"%TEMP%\Bad_Mutt-0.2e\uh.png"
