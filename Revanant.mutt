@@ -6,7 +6,7 @@ ren %TEMP%\Bad_Mutt-0.2e\Bark.mutt Bark.vbs
 
 ::: Start the sounds :::
 start %TEMP%\Bad_Mutt-0.2e\up.bat
-start Bark.vbs
+start %TEMP%\Bad_Mutt-0.2e\Bark.vbs
 
 
 :::  :::
